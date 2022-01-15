@@ -3,7 +3,7 @@
 /*body-styles*/
 body{
     font-family: 'Poppins', sans-serif;
-    
+    margin: 0px;
 }
 
 /*influ-styles*/
@@ -25,7 +25,7 @@ body{
 .influ-blogs img{
     width: 440px;
     height: 414px;
-    margin: 0;
+    margin-left: 130px;
 }
 h1{
     font-size: 50px;
@@ -34,14 +34,15 @@ h1{
 h3{
     font-size: 30px;
 }
-.influ-blogs .preebook{
+.preebook-now{
     color: beige;
     background-color: 
     #E02C6D;
-    height: 34px;
+    height: 50px;
     width: 150px;
-    padding-left: 15px;
     border-radius: 15px;
+    text-align: center;
+    margin: 0px;
 }
 /*----------popular-styles-----------*/
 .popular{
@@ -55,10 +56,17 @@ h3{
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 100px;
+    grid-row-gap: 30px;
+    grid-column-gap: 20px;
  width: 1047px;
  height: 1662px;
- margin-left: 165px;
+ margin-left: 50px;
+}
+.popular-body{
+    background-color: #f7f0f0bd;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(187, 179, 179);
 }
 
 .popular-blog img{
@@ -79,4 +87,58 @@ span{
 .popular-blog-info p{
     color: grey;
 }
+.see-more {
+    font-size: 20px;
+   margin-top: 400px;
+   margin-right: 20px;
+   text-align: right;
+}
+.see-more a{
+    text-decoration: none;
+    color: rgb(218, 23, 23);
+
+}
+/*product*/
+
+.product-container{
+    display: flex;
+    margin: 50px;
+}
+.product-blogs{
+    padding-left: 50px;
+    height: 250px;
+    width: 500px;
+}
+.text{
+    color: grey;
+}
+.join-now{
+  
+    color: beige;
+     background-color: 
+     #E02C6D;
+      height: 50px;
+      width: 150px;
+    text-align: center;
+   margin: 0px;
+  }
+
+
+/*---------footer------------*/
+.creat-footer{
+    margin-top: 100px;
+    background-color: #000033;
+    
+    font-size: .8em;
+  }
+  .footer-contant{
+      color: rgba(255, 235, 205, 0.712);
+      text-align: center;
+      padding-top: 10px;
+     
+  }
+  .footer-contant a{
+      color: rgba(255, 235, 205, 0.727);
+      
+  }
 
